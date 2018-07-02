@@ -23,6 +23,11 @@ document.getElementById('form').addEventListener('submit',
     var post = document.getElementById('post')
     var newH3 = document.createElement('h3')
     var newP = document.createElement('p')
+    
+    newH3.textContent = subject.value
+    newP.textContent = post.value
 
+    document.getElementById('posted').appendChild(newH3)
+    document.getElementById('posted').appendChild(newP)
   }
 )

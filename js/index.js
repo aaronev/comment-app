@@ -19,7 +19,10 @@
 document.getElementById('form').addEventListener('submit', 
   function(e){
     e.preventDefault()
-    document.getElementById('subject')
-    document.getElementById('post')
+    var subject = document.getElementById('subject')
+    var post = document.getElementById('post')
+    var newH3 = document.createElement('h3')
+    var newP = document.createElement('p')
+
   }
 )

@@ -21,12 +21,13 @@ document.getElementById('form').addEventListener('submit',
     e.preventDefault()
     var subject = document.getElementById('subject')
     var post = document.getElementById('post')
+    var newDiv = document.createElement('div')
     var newH5 = document.createElement('h5')
     var newP = document.createElement('p')
-    
     newH5.textContent = subject.value
     newP.textContent = post.value
-    document.getElementById('posted').appendChild(newH5)
-    document.getElementById('posted').appendChild(newP)
+    newDiv.appendChild(newH5)
+    newDiv.appendChild(newP)
+    document.getElementById('all-posts').appendChild(newDiv)
   }
 )

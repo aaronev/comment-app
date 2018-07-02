@@ -1,3 +1,21 @@
 body {
   text-align: center;
 }
+
+#subject, #post, #submit{
+  width: 50%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+#post {
+  height: 300px;
+}
+
+#all-posts {
+  border: solid;
+  border-radius: 50px;
+  height: 350px;
+  overflow: scroll;
+  text-align: center;
+}

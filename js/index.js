@@ -32,13 +32,16 @@ document.getElementById('form').addEventListener('submit',
     newDiv.appendChild(newH5)
     newDiv.appendChild(newP)
 
-    //Option 1 to append child at bottom 
+    //Option 1 to append new created element at bottom 
     // allPosts.appendChild(newDiv)
 
+    //How to append new created element at top
+    //my theory
     //I might want to sort the comment out by latest post to be on top
     //there I have to find a way to save all post through cookies
     //The way for me to do that is first append an element that shows date and time
-    ///NVM I just googled how to append before first child
+    //get them back as objects within an array  and then loop through the objects date and time
+    ////...NVM I just googled how to append before first child
 
     //Option 2 to append child at top
     allPosts.insertBefore(newDiv, allPosts.firstChild)

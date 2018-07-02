@@ -19,6 +19,7 @@
 document.getElementById('form').addEventListener('submit', 
   function(e){
     e.preventDefault()
-    /// 
+    document.getElementById('subject')
+    document.getElementById('post')
   }
 )

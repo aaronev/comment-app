@@ -19,3 +19,7 @@ body {
   overflow: scroll;
   text-align: center;
 }
+
+.comment {
+  border: solid;
+}

@@ -26,7 +26,8 @@ document.getElementById('form').addEventListener('submit',
     var newP = document.createElement('p')
     newH5.textContent = subject.value
     newP.textContent = post.value
-    newDiv.classList.add('comments')
+    newDiv.classList.add('comment')
+    newDiv.classList.add('container')
     newDiv.appendChild(newH5)
     newDiv.appendChild(newP)
     document.getElementById('all-posts').appendChild(newDiv)

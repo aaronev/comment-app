@@ -16,9 +16,9 @@
 //creating it theoritically 
 
 
-document.getElementById('form').addEventListener('', 
+document.getElementById('form').addEventListener('submit', 
   function(e){
     e.preventDefault()
-    ///
+    /// 
   }
 )

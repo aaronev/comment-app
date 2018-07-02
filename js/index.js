@@ -11,3 +11,14 @@
   once I figure how to do this I should be good with js
   and move on to css
 */
+
+
+//creating it theoritically 
+
+
+document.getElementById('form').addEventListener('', 
+  function(e){
+    e.preventDefault()
+    ///
+  }
+)
